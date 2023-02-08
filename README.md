@@ -118,6 +118,10 @@ The smart contract is being written with Solidity which is then compiled, migrat
  
 * Install all packages in the package.json file
   * `npm i`
+  
+* Install Web3 in the package.json file
+  * `npm install -save web3`
+
 
 * Run this Command :
   * `npm`
