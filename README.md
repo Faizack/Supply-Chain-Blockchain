@@ -23,16 +23,6 @@
   <a href="https://www.npmjs.com/package/web3">
     <img src="https://github.com/rishav4101/eth-supplychain-dapp/blob/main/images/web3.jpg" width="60">
   </a>
-  
-  <a href="https://material-ui.com/">
-    <img src="https://github.com/rishav4101/eth-supplychain-dapp/blob/main/images/mat.png" width="60">       
-  </a>
-  &nbsp;&nbsp;&nbsp;
-  <a href="https://expressjs.com/"><img src="https://github.com/rishav4101/eth-supplychain-dapp/blob/main/images/express.svg" width="50"></a>
-  &nbsp;&nbsp;
-  <a href="https://www.nginx.com/">
-    <img src="https://github.com/rishav4101/eth-supplychain-dapp/blob/main/images/nginx.png" width="80">
-  </a>
 </p>
 
 <h4 align="center">A simple Supply Chain setup with <a href="https://docs.soliditylang.org/en/v0.8.4/" target="_blank">Solidity</a>.</h4>
@@ -42,16 +32,13 @@
     <img src="https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg">
        
   </a>
-  <a href="https://github.com/rishav4101/eth-supplychain-dapp/issues"><img src="https://img.shields.io/github/issues/rishav4101/eth-supplychain-dapp.svg"></a>
   
-  <a href="https://opensource.org/licenses/MIT">
-    <img src="https://img.shields.io/badge/license-MIT-green.svg">
-  </a>
 </p>
 
 <p align="center">
   <a href="#description">Description</a> •
   <a href="#architecture">Architecture</a> •
+  <a href="#Flow">Flow</a> •
 
   <a href="#working">Working</a> •
   <a href="#contract-diagrams">Contract Diagrams</a> •
@@ -63,19 +50,21 @@
 Supply chain is always hard to manage and requires a lot of admistrative machinery. However, when managed with smart contracts using blockchain, a lot of the paperwork is reduced.
 Also it leads to an increase in the transparency and helps to build an efficient Root of Trust. Supply-chain-dapp is such an implementation of a supply chain management system which uses blockchain to ensure a transparent and secure transfer of product from the manufacturer to the customer via the online e-commerce websites. 
 ## Architecture
-The smart contract is being written with Solidity which is then compiled, migrated and deployed using Truffle.js on the local blockchain network created using Ganache.The frontend uses Web3.js to communicate with the smart contract and local blockchain network and is written using React.js framework for better component and state lifecycle management.The requests from user are forwarded to frontend through Nginx(load balancer) and Express.js for dynamic routing.
+The smart contract is being written with Solidity which is then compiled, migrated and deployed using Truffle.js on the local blockchain network created using Ganache.The frontend uses Web3.js to communicate with the smart contract and local blockchain network and is written using React.js framework for better component and state lifecycle management.
 <!-- <p align="centre">  
     <img src="https://github.com/rishav4101/eth-supplychain-dapp/blob/main/images/architecturefinal.png?raw=true" >  
 </p> -->
 
 ## Flow
-<!-- <p align="centre">  
-    <img src="https://github.com/rishav4101/eth-supplychain-dapp/blob/main/images/flow.png" width="300">  
-</p> -->
 
-## Working
-<!-- <img src="https://user-images.githubusercontent.com/55195287/124394128-9646a600-dd1b-11eb-8bf1-233320762f1c.png" />
-<img src="https://user-images.githubusercontent.com/55195287/124394171-d4dc6080-dd1b-11eb-87b2-127daa32481a.png" /> -->
+
+![[https://cdn.vectorstock.com/i/1000x1000/35/51/diagram-of-supply-chain-management-vector-41743551.webp](https://cdn.vectorstock.com/i/1000x1000/35/51/diagram-of-supply-chain-management-vector-41743551.webp)](https://cdn-wordpress-info.futurelearn.com/info/wp-content/uploads/8d54ad89-e86f-4d7c-8208-74455976a4a9-2-768x489.png)
+
+
+
+## Contract Working Flow
+
+![Contract Workflow](https://raw.githubusercontent.com/faizack619/Private/main/Untitled%20Diagram.drawio.png?token=GHSAT0AAAAAAB52SPASJPPICUJEI2ZTYYA6Y7C6KCQ)
 
 
 
@@ -163,14 +152,6 @@ Select "Custom RPC" and enter the RPC server URL and port number for your Ganach
 
      ![https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs76Q1oyMK717kRZ8FMC_i2VCstu8H2yZFqlfgccSsalxBXWm2PBwzS-peIFv4DqGos9g&usqp=CAU](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs76Q1oyMK717kRZ8FMC_i2VCstu8H2yZFqlfgccSsalxBXWm2PBwzS-peIFv4DqGos9g&usqp=CAU)
  3. Add All participate(Raw Material,Supplier,Manufacture,Retail). by following above Step
-
-
-
-    
-    
-    
-
-  
 
 ### License
 This project uses an [MIT](https://opensource.org/licenses/MIT) license.
