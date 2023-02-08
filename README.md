@@ -54,7 +54,6 @@ The smart contract is being written with Solidity which is then compiled, migrat
 
 ## Contract Working Flow
 
-![Contract Workflow](https://raw.githubusercontent.com/faizack619/Private/main/Untitled%20Diagram.drawio.png?token=GHSAT0AAAAAAB52SPASJPPICUJEI2ZTYYA6Y7C6KCQ)
 
 ## Summary of Smart Contract
   Solidity smart contract for a supply chain management system for the pharmaceutical industry. It defines the various stages of a medicine and tracks the supply chain journey of each medicine, storing information such as the name, description, and current stage of each medicine. The contract also defines the roles in the supply chain, including raw material supplier, manufacturer, distributor, and retailer. The owner of the smart contract is able to add new suppliers, manufacturers, distributors, and retailers to the system, and keep track of each one's address, id, name, and place. The contract includes a function for showing the stage of a particular medicine and several functions for adding and updating the information of each role in the supply chain.
