@@ -41,10 +41,9 @@
 Supply chain is always hard to manage and requires a lot of admistrative machinery. However, when managed with smart contracts using blockchain, a lot of the paperwork is reduced.
 Also it leads to an increase in the transparency and helps to build an efficient Root of Trust. Supply-chain-dapp is such an implementation of a supply chain management system which uses blockchain to ensure a transparent and secure transfer of product from the manufacturer to the customer via the online e-commerce websites. 
 ## Architecture
-The smart contract is being written with Solidity which is then compiled, migrated and deployed using Truffle.js on the local blockchain network created using Ganache.The frontend uses Web3.js to communicate with the smart contract and local blockchain network and is written using React.js framework for better component and state lifecycle management.
-<!-- <p align="centre">  
-    <img src="https://github.com/rishav4101/eth-supplychain-dapp/blob/main/images/architecturefinal.png?raw=true" >  
-</p> -->
+The smart contract is being written with Solidity which is then compiled, migrated and deployed using Truffle.js on the local blockchain network created using Ganache.The frontend uses Web3.js to communicate with the smart contract and local blockchain network and Meta Musk Wallet is connect to ganache node to do Transaction between each component in Supply .
+
+![Arti](https://media.licdn.com/dms/image/C5612AQFBy0i6iN6qiA/article-cover_image-shrink_720_1280/0/1650567548325?e=2147483647&v=beta&t=zuEuQTUHCQ2ek8_5AqcfIMK1pH8UsZuqRQP4uhULKeQ)
 
 ## Flow
 
