@@ -84,7 +84,7 @@ The smart contract is being written with Solidity which is then compiled, migrat
 ## Create,Compile & Deploy Smart Contract. 
 
 * Open VScode and open VScode Terimal by Ctrl + ' .
-* **Clone Project** Type the following command and press Enter : git clone : ` https://github.com/codeTIT4N/supply-chain-truffle-react.git && supply-chain-truffle-react `
+* **Clone Project** Type the following command and press Enter : git clone : ` https://github.com/faizack619/Supply-Chain-Blockchain.git  
 * **Install truffle** : Type the following command and press Enter: `npm install -g truffle`
 * **Install dependencies** : Type the following command and press Enter: `npm i`
 * **File structure for  DApp** : 
