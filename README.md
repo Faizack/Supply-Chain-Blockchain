@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a><img src="https://github.com/rishav4101/eth-supplychain-dapp/blob/main/images/logo.png" width="200"></a>
+  <a><img src="https://www.mdpi.com/logistics/logistics-03-00005/article_deploy/html/images/logistics-03-00005-g001.png" width="200"></a>
   <br>  
   Supply-Chain-Dapp
   <br>
@@ -8,8 +8,8 @@
 
 <p align="center">
   
-  <a href="https://github.com/trufflesuite/ganache-cli">
-    <img src="https://github.com/rishav4101/eth-supplychain-dapp/blob/main/images/ganachetrans.png" width="90">
+  <a href="https://docs.godechain.com/welcome/">
+    <img src="https://s3.coinmarketcap.com/static-gravity/thumbnail/medium/12b1f4d9727b4aab83cd5398bf6e080d.jpg" width="35" height='35'>
   </a>
   <a href="https://soliditylang.org/">
     <img src="https://github.com/rishav4101/eth-supplychain-dapp/blob/main/images/Solidity.svg" width="80">       
@@ -41,22 +41,34 @@
 Supply chain is always hard to manage and requires a lot of admistrative machinery. However, when managed with smart contracts using blockchain, a lot of the paperwork is reduced.
 Also it leads to an increase in the transparency and helps to build an efficient Root of Trust. Supply-chain-dapp is such an implementation of a supply chain management system which uses blockchain to ensure a transparent and secure transfer of product from the manufacturer to the customer via the online e-commerce websites. 
 ## Architecture
-The smart contract is being written with Solidity which is then compiled, migrated and deployed using Truffle.js on the local blockchain network created using Ganache.The frontend uses Web3.js to communicate with the smart contract and local blockchain network and Meta Musk Wallet is connect to ganache node to do Transaction between each component in Supply .
+The smart contract is being written with Solidity which is then compiled, migrated and deployed using Truffle.js on the Gode Testnet blockchain network.The frontend uses Web3.js to communicate with the smart contract and Gode Testnet blockchain network and Meta Musk Wallet is connect to Gode Test Network to do Transaction between each component in Supply .
+****
+![https://raw.githubusercontent.com/faizack619/Supply-Chain-Gode-Blockchain/master/client/public/Blank%20diagram.png](https://raw.githubusercontent.com/faizack619/Supply-Chain-Gode-Blockchain/master/client/public/Blank%20diagram.png)
 
-![Arti](https://media.licdn.com/dms/image/C5612AQFBy0i6iN6qiA/article-cover_image-shrink_720_1280/0/1650567548325?e=2147483647&v=beta&t=zuEuQTUHCQ2ek8_5AqcfIMK1pH8UsZuqRQP4uhULKeQ)
-
-## Flow
+## Supply Chain Flow
 
 
 ![[https://cdn.vectorstock.com/i/1000x1000/35/51/diagram-of-supply-chain-management-vector-41743551.webp](https://cdn.vectorstock.com/i/1000x1000/35/51/diagram-of-supply-chain-management-vector-41743551.webp)](https://cdn-wordpress-info.futurelearn.com/info/wp-content/uploads/8d54ad89-e86f-4d7c-8208-74455976a4a9-2-768x489.png)
 
 
 
-## Contract Working Flow
-<img src="https://raw.githubusercontent.com/faizack619/Supply-Chain-Blockchain/master/client/public/contractD.png" >
+## Smart Contract Working Flow
 
-## Summary of Smart Contract
-  Solidity smart contract for a supply chain management system for the pharmaceutical industry. It defines the various stages of a medicine and tracks the supply chain journey of each medicine, storing information such as the name, description, and current stage of each medicine. The contract also defines the roles in the supply chain, including raw material supplier, manufacturer, distributor, and retailer. The owner of the smart contract is able to add new suppliers, manufacturers, distributors, and retailers to the system, and keep track of each one's address, id, name, and place. The contract includes a function for showing the stage of a particular medicine and several functions for adding and updating the information of each role in the supply chain.
+![https://raw.githubusercontent.com/faizack619/Supply-Chain-Gode-Blockchain/master/client/public/Supply%20Chain%20Design%20(1).png?token=GHSAT0AAAAAAB52SPAT5YHI3AALNPFXL27AY7OU3IQ](https://raw.githubusercontent.com/faizack619/Supply-Chain-Gode-Blockchain/master/client/public/Supply%20Chain%20Design%20(1).png?token=GHSAT0AAAAAAB52SPAT5YHI3AALNPFXL27AY7OU3IQ)
+
+This is a SupplyChain smart contract written in Solidity. The contract models the various roles and stages involved in the supply chain of a pharmaceutical product.
+
+The contract owner is the person who deploys the contract and is the only one who can authorize various roles like retailer, manufacturer, etc.
+
+There are several roles involved in the supply chain of the pharmaceutical product. These include the raw material supplier, manufacturer, distributor, and retailer.
+
+The smart contract stores information about the medicine, such as its name, description, and current stage in the supply chain. There is also a function to show the current stage of a medicine, which can be used by client applications.
+
+The smart contract also stores information about the various players in the supply chain, such as their name, address, and place of operation.
+
+The addRMS(), addManufacturer(), addDistributor(), and addRetailer() functions can be used by the contract owner to add new players to the supply chain.
+
+Overall, this smart contract provides a way to track the various stages of a pharmaceutical product in the supply chain, ensuring transparency and accountability.
 
 
 ##  🔧 Setting up Local Development
