@@ -109,7 +109,7 @@ Overall, this smart contract provides a way to track the various stages of a pha
 * **Compile the smart contract** :  In the terminal, use the following command to compile the smart contract: `truffle compile` 
 * **Deploy the smart contract** :
    
-    * After Compile We Need To Deploy Your Smart Contract on Blockchain.In Our Case We are Using Ganache Which is personal blockchain for Ethereum development, used to test and develop Smart Contracts.
+    * After Compile We Need To Deploy Your Smart Contract on Blockchain. In Our Case We are Using Ganache Which is personal blockchain for Ethereum development, used to test and develop Smart Contracts.
 
     * Open Ganache and create new WorkSpace.Copy Rpc Server Address.
 
