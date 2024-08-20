@@ -1,0 +1,50 @@
+.assign-roles-container {
+    padding: 20px;
+    margin: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.home-button {
+    margin-left: 10px;
+    padding: 5px 10px;
+}
+
+h4 {
+    margin-bottom: 15px;
+}
+
+.role-form {
+    margin-bottom: 30px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.table-sm {
+    margin-top: 20px;
+}
+
+.table thead th {
+    background-color: #f1f1f1;
+}
+
+.table tbody tr {
+    background-color: #fff;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
