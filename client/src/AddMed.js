@@ -99,12 +99,12 @@ function AddMed() {
                 <br />
                 <h5>Add Medicine Order:</h5>
                 <form onSubmit={handlerSubmitMED} style={styles.form}>
-                    <input className="form-control-sm" type="text" onChange={handlerChangeNameMED} placeholder="Medicine Name" required />
-                    <input className="form-control-sm" type="text" onChange={handlerChangeDesMED} placeholder="Medicine Description" required />
+                    <input className="form-control-sm" type="text" onChange={handlerChangeNameMED} placeholder="Battery Name" required />
+                    <input className="form-control-sm" type="text" onChange={handlerChangeDesMED} placeholder="Battery Description" required />
                     <button className="btn btn-outline-success btn-sm" style={styles.submitButton}>Order</button>
                 </form>
                 <br />
-                <h5>Ordered Medicines:</h5>
+                <h5>Ordered Batteries:</h5>
                 <table className="table table-bordered" style={styles.table}>
                     <thead>
                         <tr>
