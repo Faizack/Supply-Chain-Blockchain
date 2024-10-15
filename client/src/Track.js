@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react'
 import { useHistory } from "react-router-dom"
 import Web3 from "web3";
 import SupplyChainABI from "./artifacts/SupplyChain.json"
+// import {QRCode} from 'qrcode.react'
+import { QRCodeCanvas } from 'qrcode.react';
 
 function Track() {
     const history = useHistory()
@@ -330,6 +332,14 @@ function Track() {
         )
     }
     if (TrackTillOrdered) {
+      const batteryData = {
+        id: MED[ID]?.id,
+        name: MED[ID]?.name,
+        description: MED[ID]?.description,
+        currentStage: MedStage[ID]
+      };
+
+      const batteryDataString = JSON.stringify(batteryData);
         return (
             <div className="container-xl">
                 <article className="col-4">
@@ -360,7 +370,13 @@ function Track() {
                         <p><b>Place: </b>{RMS[MED[ID].RMSid].place}</p>
                     </article>
                 </section> */}
+                <div className="qr-code-container">
+                    <h4>QR Code:</h4>
+                    <QRCodeCanvas value={batteryDataString} />
+                </div>
             </div >
+
+
         )
     }
     const handlerChangeID = (event) => {
