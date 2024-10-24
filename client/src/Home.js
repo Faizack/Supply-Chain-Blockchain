@@ -16,6 +16,7 @@ function Home() {
                     <button onClick={() => redirectTo('/roles')} style={styles.button}>Register Roles</button>
                     <button onClick={() => redirectTo('/addmed')} style={styles.button}>Order Materials</button>
                     <button onClick={() => redirectTo('/track')} style={styles.button}>Track Materials</button>
+                    <button onClick={() => redirectTo('/supply')} style={styles.button}>Supply Materials</button>
                 </div>
             </div>
         </div>
