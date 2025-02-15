@@ -1,0 +1,41 @@
+.fancyButton {
+  padding: 15px;
+  font-size: 18px;
+  color: #FFF;
+  background-color: #8A817C;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.3s, box-shadow 0.3s;
+  position: relative;
+  overflow: hidden;
+}
+
+.fancyButton:hover {
+  background-color: #6B705C;
+  transform: scale(1.05);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.fancyButton:active {
+  transform: scale(1.15);
+}
+
+.burst {
+  animation: burstEffect 0.5s forwards;
+}
+
+@keyframes burstEffect {
+  0% {
+      transform: scale(1);
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  }
+  50% {
+      transform: scale(1.3);
+      box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.4);
+  }
+  100% {
+      transform: scale(0);
+      box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  }
+}
